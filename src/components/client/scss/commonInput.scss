@@ -1,0 +1,45 @@
+$primary-color: #f8b600;
+$second-color:blue;
+.quantityInput{
+    min-width: 200px;
+    flex-wrap: nowrap;
+    &>div{
+        display: flex;
+        min-height: 30px;
+        min-width: 30px;
+        border: 1px solid #f8b600;
+        justify-content: center;
+        align-items: center;
+    }
+    .minus{
+        border-radius: 100px 0px 0px 100px;
+        font-size: 25px;
+        padding-bottom: 5px;
+        &:hover{
+            background-color: #f8b600;
+            padding-bottom: 5px;
+            font-weight: 800;
+        }
+    }
+    .plus{
+        border-radius: 0px 100px 100px 0px;
+        font-size: 25px;
+        padding-bottom: 5px;
+        &:hover{
+            background-color: #f8b600;
+            padding-bottom: 5px;
+            font-weight: 800;
+        }
+    }
+    .quantity{
+        padding: 0px;
+        
+        input{  
+            border: none;
+            text-align: center;
+            width: 100%;
+            display: block;
+            outline: none;
+        }
+    }
+}
